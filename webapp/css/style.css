@@ -1,1 +1,30 @@
 /* Enter your custom styles here */
+.sap-desktop .sapMBarTitleStart .sapMBarPH {
+	background-color:cadetblue;
+	justify-content: center !important;
+}
+.sapMSplitContainerHideMode > .sapMSplitContainerDetail .sapMPage.sapUiResponsiveContentPadding > section, .sapMPage.sapUiResponsiveContentPadding > section{
+	padding: 0rem 0rem !important;
+	justify-content: center !important
+}
+
+.sapMPanel.sapUiNoContentPadding > .sapMPanelContent {
+    padding: 0rem 4rem !important;
+}
+.sapMTB {
+    /*background:white !important;*/
+}
+.sapMIBar.sapMTB .sapMBarChild:only-child {
+    margin: 45px !important;
+    /*background-color:#ffffff;*/
+}
+.sapFDynamicPage .sapFDynamicPageContentWrapperStandard > .sapFDynamicPageContent, .sapFDynamicPage .sapFDynamicPageContentWrapperSolid > .sapFDynamicPageContent {
+    background:#d7d8e6 !important;
+}
+.sapMListTblCell.cellBorderRight {
+	border-right: 1px solid lightgray;
+}
+
+.sapMListTblCell.cellBorderLeft {
+	border-left: 1px solid lightgray;
+}
